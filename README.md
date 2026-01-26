@@ -88,7 +88,7 @@ This project uses **DuckDB** and standard SQL.
 .read sql/03_risk_over_time.sql
 .read sql/04_customer_segment_risk.sql
 
-###  Option 2: DuckDB Python
+**###  Option 2: DuckDB Python**
 import duckdb
 con = duckdb.connect("bank_loans.duckdb")
 con.execute(open("sql/00_setup_views.sql").read())
