@@ -91,7 +91,7 @@ This project uses **DuckDB** and standard SQL.
 
 ---
 
-### 3️⃣ Author Notes
+### [Author Notes](url)
 
 > This project intentionally prioritizes **realistic data quality constraints** commonly observed in regulated banking environments.
 
