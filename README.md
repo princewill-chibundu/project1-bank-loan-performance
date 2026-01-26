@@ -70,3 +70,20 @@ Key data quality issues identified and documented:
 - Transaction-level data not directly aligned with loan delinquency metrics
 
 These checks are explicitly handled in:
+- `sql/01_data_quality_checks.sql` — identification of missing customer identifiers, inconsistent loan statuses, and malformed loan product values
+- `sql/00_setup_views.sql` — normalization logic applied via views to ensure consistent downstream analysis
+
+---
+
+## How to Run This Analysis
+
+This project uses **DuckDB** and standard SQL.
+
+### Option 1: DuckDB CLI
+```sql
+.open bank_loans.duckdb
+.read sql/00_setup_views.sql
+.read sql/01_data_quality_checks.sql
+.read sql/02_product_default_rate.sql
+.read sql/03_risk_over_time.sql
+.read sql/04_customer_segment_risk.sql
