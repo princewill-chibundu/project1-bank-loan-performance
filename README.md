@@ -96,3 +96,14 @@ This project intentionally prioritizes realistic data quality constraints common
 Rather than assuming perfect customer identifiers or clean loan statuses, the analysis highlights how governance gaps directly impact risk visibility, provisioning accuracy, and executive decision-making.
 
 The goal is not predictive modeling, but **risk transparency** — demonstrating how SQL alone can surface material portfolio risks when used with disciplined aggregation and domain context.
+
+---
+
+## Author Notes
+
+This project intentionally prioritizes realistic data quality constraints commonly observed in regulated banking environments.
+
+Rather than assuming perfect customer identifiers or clean loan statuses, the analysis highlights how governance gaps directly impact risk visibility, provisioning accuracy, and executive decision-making.
+
+The goal is not predictive modeling, but **risk transparency** — demonstrating how SQL alone can surface material portfolio risks when applied with disciplined aggregation and strong domain context.
+
