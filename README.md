@@ -88,6 +88,8 @@ This project uses **DuckDB** and standard SQL.
 .read sql/03_risk_over_time.sql
 .read sql/04_customer_segment_risk.sql
 
+---
+
 ## Author Notes
 
 This project intentionally prioritizes realistic data quality constraints commonly observed in regulated banking environments.  
