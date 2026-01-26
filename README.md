@@ -89,11 +89,16 @@ This project uses **DuckDB** and standard SQL.
 .read sql/03_risk_over_time.sql
 .read sql/04_customer_segment_risk.sql.
 
+
+
+
+
+
 ---
 
-### [Author Notes](url)
+[### [Author Notes](url)](url)
 
-> This project intentionally prioritizes **realistic data quality constraints** commonly observed in regulated banking environments.
+This project intentionally prioritizes **realistic data quality constraints** commonly observed in regulated banking environments.
 
 Rather than assuming perfect customer identifiers or clean loan statuses, the analysis highlights how **data governance gaps directly impact risk visibility and executive decision-making**.
 
