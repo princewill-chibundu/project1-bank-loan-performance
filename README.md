@@ -80,17 +80,19 @@ These checks are explicitly handled in:
 This project uses **DuckDB** and standard SQL.
 
 ### DuckDB CLI
+
 ```sql
 .open bank_loans.duckdb
 .read sql/00_setup_views.sql
 .read sql/01_data_quality_checks.sql
 .read sql/02_product_default_rate.sql
 .read sql/03_risk_over_time.sql
-.read sql/04_customer_segment_risk.sql.
+.read sql/04_customer_segment_risk.sql
+
 
 ---
 
-### ✍️ Author Notes
+✍️ ** Author Notes **
 
 > This project intentionally prioritizes **realistic data quality constraints** commonly observed in regulated banking environments.
 
