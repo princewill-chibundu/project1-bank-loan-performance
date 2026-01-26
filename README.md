@@ -79,7 +79,7 @@ These checks are explicitly handled in:
 
 This project uses **DuckDB** and standard SQL.
 
-### Option 1: DuckDB CLI
+### DuckDB CLI
 ```sql
 .open bank_loans.duckdb
 .read sql/00_setup_views.sql
@@ -88,7 +88,3 @@ This project uses **DuckDB** and standard SQL.
 .read sql/03_risk_over_time.sql
 .read sql/04_customer_segment_risk.sql
 
-**###  Option 2: DuckDB Python**
-import duckdb
-con = duckdb.connect("bank_loans.duckdb")
-con.execute(open("sql/00_setup_views.sql").read())
