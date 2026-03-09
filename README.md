@@ -139,7 +139,7 @@ This approach mirrors real-world banking analytics, where:
 
 ## Executive Insights (Non-Technical Summary)
 
-### 1️⃣ Loan Products with Highest Risk
+### 1️ Loan Products with Highest Risk
 After cleaning inconsistent loan type values, **Home Equity loans** show the highest risk across:
 - Default rate (count-based)
 - Default exposure rate (amount-weighted)
@@ -149,7 +149,7 @@ Home Equity loans represent the most material risk to the bank and should be pri
 
 ---
 
-### 2️⃣ Risk Concentration Over Time
+### 2️ Risk Concentration Over Time
 Risk metrics were analyzed using:
 - Monthly cohorts
 - Exposure-weighted default measures
@@ -160,7 +160,7 @@ Risk does not increase evenly across time. Certain periods show concentrated exp
 
 ---
 
-### 3️⃣ Customer-Level Risk Limitations (Critical Finding)
+### 3️ Customer-Level Risk Limitations (Critical Finding)
 A large proportion of loans have **missing customer identifiers**.
 
 **Impact:**
